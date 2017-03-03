@@ -1,0 +1,188 @@
+h2, h3, h6 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#about-h2 {
+	border:1px solid black;
+	margin-left: 0;
+	border-bottom: 2.5px solid #cccccc;
+	margin-right: 1em;
+}
+
+#name-h2 {
+	/*margin-left: 1em;*/
+	float: left;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 1em;
+	color: #ffffff;
+	background-color: #4aaaa5;
+
+}
+
+h3 {
+	margin-left: 2em;
+	margin-right: 2em;
+	display: block;
+	text-align: left;
+	border-bottom: 2.5px solid #cccccc;
+}
+
+/*ul, li {
+	display: inline;
+}*/
+
+.section-name {
+	float:left;
+	width: 650px;
+	margin-left:6em;
+	margin-top: 2em;
+	margin-bottom: 0;
+}
+
+.section-links {
+	float:left;
+	width: 270px;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+
+#ul-connect {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.li-connect {
+	float: left;
+	margin-left: 2em;
+	display: block;
+	text-align: center;
+}
+
+.a-connect {
+	display: block;
+	text-align: center;
+}
+
+
+#ul-links {
+	list-style-type: none;
+	width: 270px;
+	padding: 0;
+	margin-top: 2em;
+}
+
+.li-links {
+	float: left;
+	margin: 0;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: block;
+	text-align: center;
+}
+
+.a-links {
+	display: block;
+	text-align: center;
+}
+
+
+
+
+header {
+	width: 100%;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	padding-top: 0;
+	float: left;
+}
+
+section {
+	background-color: #ffffff;
+}
+
+body {
+	color: grey;
+	width:100%;
+	margin:0;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: beige;
+}
+
+.container {
+ width: 960px;
+ margin: 0 auto;
+ height: 550px;
+}
+
+#your-name { 
+	width: 70%;
+	float: left;
+}
+
+#links {
+	width: 30%;
+	float: left;
+}
+
+#about-me,
+#connect,
+#image {
+	float: left;
+}
+
+
+#about-me {
+	width: 650px;
+	margin-top: 2em;
+	margin-left: 0;
+	border: 1px solid #dddddd;
+	padding: 1em;
+}
+
+#connect {
+	width: 270px;
+	margin-top: 2em;
+	padding-top: 1em;
+	border: 1px solid #dddddd;
+
+}
+
+#image {
+	margin: 1em;
+	width: 100px;
+	height: 100px;
+}
+
+.icons {
+	height: 20px;
+	width: 20px;
+	float: center;
+	margin: 5px;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+
+
+
+
+
+
+
