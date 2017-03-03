@@ -3,21 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-<div>
-	<h2>Ricardo Paulin</h2>
-</div>
+<div class="wrapper">
+		<header>
+			<section class="section-name">
+			<h2 id="name-h2">Ricardo Paulin</h2>
+			</section>
+			
+			<section class="section-links">
 
-<ul>
-	<li><a href="#">About</a></li>
-	<li><a href="#">Portfolio</a></li>
-	<li><a href="#">Contact</a></li>
-</ul>
-<br />
+			<ul id="ul-links">
+				<li class="li-links" style="border-right: 1px solid #cccccc"><a href="#" class="a-links">About</a></li>
+				<li class="li-links" style="border-right: 1px solid #cccccc"><a href="#" class="a-links">Portfolio</a></li>
+				<li class="li-links"><a href="#" class="a-links">Contact</a></li>
+			</ul>
+			</section>
+		</header>
 
-<h2>Portfolio</h2>
+<div class="container">
+<section id="about-me">
+<h2 id="about-h2">Portfolio</h2>
 
 <ul>
 	<li><img src="assets/images/placeholder1.jpg" alt="Hangman">Hangman</li>
@@ -28,13 +36,38 @@
 </ul>
 <br />
 
-<h3>Connect With Me</h3>
+<section id="connect">
+				<h3>Connect With Me</h3>
+				
+				<ul id="ul-connect">
+					<li class="li-connect">
+						<a href="https://github.com/rpaulin90" class="a-connect">
+							<img src="assets/images/github_square.png" alt="github logo" class="icons">
+						</a>
+					</li>
 
-<ul>
-	<li><a href="https://github.com/rpaulin90"><img src="assets/images/github_square.png" alt="github logo"></a></li>
-	<li><a href="https://www.linkedin.com/in/rpaulin90"><img src="assets/images/square-linkedin.png" alt="linkedin logo"></a></li>
-	<li><a href="http://stackoverflow.com/users/7406906/rpaulin90"><img src="assets/images/stackoverflow.png" alt="stack overflow logo"></a></li>
-</ul>
+					<li class="li-connect">
+						<a href="https://www.linkedin.com/in/rpaulin90" class="a-connect">
+							<img src="assets/images/square-linkedin.png" alt="linkedin logo" class="icons">
+						</a>
+					</li>
+
+					<li class="li-connect">
+						<a href="http://stackoverflow.com/users/7406906/rpaulin90" class="a-connect">
+							<img src="assets/images/stackoverflow.png" alt="stack overflow logo" class="icons">
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	<div class="push"></div>
+	</div>
+		
+		<div class="footer" style="border-top: 5px solid #4aaaa5;background-color: grey">
+		<footer>
+			<p style="text-align: center; margin-top: 3em; color: #cccccc">&copy; Copyright 2017 Ricardo Paulin</p>
+		</footer>
+		</div>
 
 </body>
 </html>
