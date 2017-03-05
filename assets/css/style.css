@@ -1,10 +1,11 @@
 
 header {
 	width: 100%;
-	background-color: #ffffff;
-	border-bottom: 2px solid #cccccc;
-	padding-top: 0;
-	float: left;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    padding-top: 0;
+    float: left;
+    height: 95px;
 }
 
 
@@ -28,11 +29,19 @@ section {
 	background-color: #ffffff;
 }
 
+#content-area{
+    width: 960px;
+    margin: 0 auto;
+    height: 128px;
+}
+
+/* start of header IDs and classes */
+
 #section-name {
 	float: left;
     margin-left: 0;
     margin-bottom: 0;
-    margin-top: 53px;
+    margin-top: 20px;
    
 }
 
@@ -45,22 +54,10 @@ section {
 	background-color: #4aaaa5;
 }
 
-#content-area{
-    width: 960px;
-    margin: 0 auto;
-    height: 128px;
-}
-
-#about-h2 {
-	margin-left: 0;
-	border-bottom: 2.5px solid #cccccc;
-	margin-right: 1em;
-}
-
 #section-links {
 	float: right;
     width: 270px;
-    margin-top: 53px;
+    margin-top: 20px;
 }
 
 #ul-links {
@@ -71,7 +68,7 @@ section {
 }
 
 .li-links {
-	float: left;
+	float: right;
 	margin: 0;
 	padding-left: 1em;
 	padding-right: 1em;
@@ -84,32 +81,78 @@ section {
 	text-align: center;
 }
 
+/* end of header IDs and classes */
 
-h3 {
-	margin-left: 2em;
-	margin-right: 2em;
-	display: block;
-	text-align: left;
-	border-bottom: 2.5px solid #cccccc;
+
+
+/* start of main content IDs and classes*/
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    height: 455px;
+    clear: both;
 }
 
-/*ul, li {
-	display: inline;
-}*/
+/* css for INDEX */
+
+#about-me {
+	width: 650px;
+    margin-top: 20px;
+    margin-left: 0;
+    border: 1px solid #dddddd;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+#about-h2 {
+	margin-left: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#image {
+	margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#description {
+	margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* css for the connect side panel */
+
+#connect {
+	width: 270px;
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+
+}
 
 
+h3 {
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2.5px solid #cccccc;
+}
 
 #ul-connect {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
 }
 
 .li-connect {
 	float: left;
-	margin-left: 2em;
-	display: block;
-	text-align: center;
+    margin-left: 0;
+    display: block;
+    text-align: center;
 }
 
 .a-connect {
@@ -117,19 +160,11 @@ h3 {
 	text-align: center;
 }
 
-
-
-.container {
- width: 960px;
- margin: 0 auto;
- height: 550px;
+.icons {
+	height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
 }
-
-#your-name { 
-	width: 70%;
-	float: left;
-}
-
 
 #about-me,
 #connect,
@@ -137,50 +172,34 @@ h3 {
 	float: left;
 }
 
+/* css for the sticky footer starts here */
 
-#about-me {
-	width: 650px;
-	margin-top: 2em;
-	margin-left: 0;
-	border: 1px solid #dddddd;
-	padding: 1em;
-}
-
-#connect {
-	width: 270px;
-	margin-top: 2em;
-	padding-top: 1em;
-	border: 1px solid #dddddd;
-
-}
-
-#image {
-	margin: 1em;
-	width: 100px;
-	height: 100px;
-}
-
-.icons {
-	height: 20px;
-	width: 20px;
-	float: center;
-	margin: 5px;
+#copyright {
+	text-align: center;
+    margin-top: 20px;
+    color: #cccccc;
+    margin-bottom: 10px;
 }
 
 * {
     margin: 0;
 }
+
 html, body {
     height: 100%;
 }
+
 .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
     margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
 }
+
 .footer, .push {
-    height: 142px; /* .push must be the same height as .footer */
+    margin-top: 0;
+    padding-bottom: 10px;
+}
 
 
 
