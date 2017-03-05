@@ -1,72 +1,67 @@
+
+header {
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding-top: 0;
+	float: left;
+}
+
+
+
+body {
+	color: grey;
+	width: 1200px;
+	margin:0;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: beige;
+
+}
+
 h2, h3, h6 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#about-h2 {
-	border:1px solid black;
-	margin-left: 0;
-	border-bottom: 2.5px solid #cccccc;
-	margin-right: 1em;
+section {
+	background-color: #ffffff;
+}
+
+#section-name {
+	float: left;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 53px;
+   
 }
 
 #name-h2 {
-	/*margin-left: 1em;*/
 	float: left;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 1em;
 	color: #ffffff;
 	background-color: #4aaaa5;
-
 }
 
-h3 {
-	margin-left: 2em;
-	margin-right: 2em;
-	display: block;
-	text-align: left;
+#content-area{
+    width: 960px;
+    margin: 0 auto;
+    height: 128px;
+}
+
+#about-h2 {
+	margin-left: 0;
 	border-bottom: 2.5px solid #cccccc;
+	margin-right: 1em;
 }
 
-/*ul, li {
-	display: inline;
-}*/
-
-.section-name {
-	float:left;
-	width: 650px;
-	margin-left:6em;
-	margin-top: 2em;
-	margin-bottom: 0;
+#section-links {
+	float: right;
+    width: 270px;
+    margin-top: 53px;
 }
-
-.section-links {
-	float:left;
-	width: 270px;
-	margin-left: 2em;
-	margin-top: 2em;
-}
-
-
-#ul-connect {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.li-connect {
-	float: left;
-	margin-left: 2em;
-	display: block;
-	text-align: center;
-}
-
-.a-connect {
-	display: block;
-	text-align: center;
-}
-
 
 #ul-links {
 	list-style-type: none;
@@ -90,28 +85,39 @@ h3 {
 }
 
 
-
-
-header {
-	width: 100%;
-	background-color: #ffffff;
-	border: 1px solid #cccccc;
-	padding-top: 0;
-	float: left;
+h3 {
+	margin-left: 2em;
+	margin-right: 2em;
+	display: block;
+	text-align: left;
+	border-bottom: 2.5px solid #cccccc;
 }
 
-section {
-	background-color: #ffffff;
-}
+/*ul, li {
+	display: inline;
+}*/
 
-body {
-	color: grey;
-	width:100%;
-	margin:0;
+
+
+#ul-connect {
+	list-style-type: none;
+	margin: 0;
 	padding: 0;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-color: beige;
 }
+
+.li-connect {
+	float: left;
+	margin-left: 2em;
+	display: block;
+	text-align: center;
+}
+
+.a-connect {
+	display: block;
+	text-align: center;
+}
+
+
 
 .container {
  width: 960px;
@@ -124,10 +130,6 @@ body {
 	float: left;
 }
 
-#links {
-	width: 30%;
-	float: left;
-}
 
 #about-me,
 #connect,
