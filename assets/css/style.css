@@ -69,14 +69,18 @@ section {
 .li-links {
 	float: right;
     margin: 0;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     /* padding-right: 1em; */
     display: block;
     text-align: center;
 }
 
-.li-link-padding {
-	padding-right: 10px;
+.padding-left {
+	padding-left: 24px;
+}
+
+.padding-right {
+	padding-right: 24px;
 }
 
 .a-links {
@@ -104,6 +108,7 @@ section {
     border-bottom: 2px solid #cccccc;
     margin-right: 20px;
     margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 /* css for INDEX */
