@@ -12,8 +12,10 @@ header {
 
 body {
 	color: grey;
-    width: initial;
-    margin: 0;
+    min-width: 1000px;
+    width: 100%;
+    /* margin-left: 20px; */
+    /* margin-right: 10px; */
     padding: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -286,7 +288,8 @@ html, body {
   height: 60px; 
 }
 .site-footer {
-  background: orange;
+  background: grey;
+  border-top: 5px solid #4aaaa5;
 }
 
 
