@@ -1,11 +1,11 @@
 
 header {
-	width: 100%;
+    width: 100%;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     padding-top: 0;
     float: left;
-    height: 95px;
+    height: 105px;
 }
 
 
@@ -24,6 +24,8 @@ body {
 h2, h3, h6 {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 section {
@@ -33,39 +35,48 @@ section {
 #content-area{
     width: 960px;
     margin: 0 auto;
-    height: 128px;
+    height: 105px;
 }
 
 /* start of header IDs and classes */
 
 #section-name {
 	float: left;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-top: 20px;
-   
+    /* margin-left: 0; */
+    /* margin-bottom: 0; */
+    margin-top: 40px;
+    /* height: 75px; */
+    padding: 20px;
+    background-color: #4aaaa5;
 }
 
 #name-h2 {
 	float: left;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 1em;
-	color: #ffffff;
-	background-color: #4aaaa5;
+    /* margin-bottom: 0; */
+    /* margin-top: 0; */
+    /* padding: 1em; */
+    /* margin: 20px; */
+    /* margin-top: 20px; */
+    /* padding: 20px; */
+    color: #ffffff;
+    background-color: #4aaaa5;
+    /* height: 40px; */
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #section-links {
 	float: right;
     width: 270px;
-    margin-top: 20px;
+    margin-top: 49px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #ul-links {
 	list-style-type: none;
 	width: 270px;
 	padding: 0;
-	margin-top: 2em;
 }
 
 .li-links {
@@ -115,6 +126,8 @@ section {
     margin-right: 20px;
     margin-top: 40px;
     padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /* css for INDEX */
@@ -131,8 +144,8 @@ section {
 
 #image {
 	margin: 20px;
-    width: 100px;
-    height: 100px;
+    width: 190px;
+    height: 172.5px;
 }
 
 #description {
